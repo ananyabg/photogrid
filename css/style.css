@@ -1,7 +1,7 @@
 :root {
     --primary-color: #e4873d;
     --secondary-color: #f8ed3e;
-    --light-color: #f3f3f3;
+    --light-color:#fefffc;
     --dark-color:#333;
     --another-color: #f2eed2;
     --other-color:#26343B;
@@ -10,9 +10,9 @@
 }
 
 .category {
-    --photos-color: #E4DA3D;
-    --ent-color:#5761f9;
-    --art-color:#ea6363;
+    --photos-color: #f9ef57;
+    --ent-color:#57b2f9;
+    --art-color:#f95761;
 }
 
 * {
@@ -28,7 +28,7 @@ background: var(--light-color);
 }
 
 a {
-    color:#555;
+    color:#544243;
     text-decoration: none;
 }
 
@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
 .bg-secondary h2,
 .bg-secondary h3,
 .bg-secondary a {
-    color:#E3DA3E;
+    color:#fff;
 }
 
 .py-1 {padding: 1.5rem 0 }
@@ -186,7 +186,7 @@ grid-gap: 1.5rem;
 /* Navigation */ 
 
 #main-nav {
-background: #fff;
+background:#fff;
 position: sticky;
 top: 0;
 z-index: 2;
